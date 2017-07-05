@@ -5,7 +5,7 @@ This repository is created for CryptStore project.
 
 ## Define
 CryptStore is a digital safe protect by passphrase.
-Password is split in k other password given in other people (eg: familly)
+Password is split in k password given in other people (eg: familly, friends, ...)
 by algorythm of Shamir's Secret Sharing (https://en.wikipedia.org/wiki/Shamir%27s_Secret_Sharing).
 
 If someone need to acces of safe, we need (k / 2) password for unlock this.
@@ -33,9 +33,9 @@ Il peut quand meme recupere ces documents important grace au copie de son coffre
 English
 ```
 3 people confident Alice Bob and Marc
-each of one have a digital safe protected by passphrase and each of one have safe copy of other members.
+each of them have a digital safe protected by passphrase and each of one have safe copy of other members.
 
-each time when safe is modifing, it sync with a copy.
+Every time when safe is modifing, it sync with a copy.
 Safe can save vital records (CNI, Keepass base, gouvernment administration, ...)
 Now if Alice lost her password (dead, lost memory after accident, ...), Marc and Bob can meet for recover password of Alice.
 Now next case, if Bob are stolen his portable, he can recover their documents through copy of Alice or Marc
