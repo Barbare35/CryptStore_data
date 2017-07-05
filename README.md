@@ -48,6 +48,7 @@ simply unit test and modification.
 ## Functionnality
 ./crypto_store [d|out] file
 
--> options :
-	`-d: debug`
-	`--out=<file directory>: write key in file directory`
+# options :
+`-d: debug`
+
+`--out=<file directory>: write key in file directory`
