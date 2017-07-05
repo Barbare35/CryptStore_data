@@ -41,14 +41,15 @@ Now if Alice lost her password (dead, lost memory after accident, ...), Marc and
 Now next case, if Bob are stolen his portable, he can recover their documents through copy of Alice or Marc
 ```
 
-## Project repository
+# Project repository
 This project repository isn't finaly project, it's just a split functionnality for
 simply unit test and modification.
+For look network fork: see https://github.com/punkymaniac/CryptStore_network
 
-## Functionnality
+# Functionnality
 ./crypto_store [d|out] file
 
-# options :
+## options :
 `-d: debug`
 
 `--out=<file directory>: write key in file directory`
