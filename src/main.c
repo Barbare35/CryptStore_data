@@ -39,7 +39,7 @@ int main(int ac, char **av)
 		{'d', false, NULL},
 		{'l', false, NULL},
 		{'v', false, NULL},
-		{'o', false, NULL},
+		{'c', false, NULL},
 		{0, 0, 0},
 	};
 	struct option options[] = {
@@ -47,7 +47,7 @@ int main(int ac, char **av)
 		{"debug",		no_argument,       	0, 'd'},
 		{"list-file",	no_argument,		0, 'l'},
 		{"verbose",		no_argument,		0, 'v'},
-		{"out",			required_argument,	0, 'o'},
+		{"copy",		required_argument,	0, 'c'},
 		{0, 0, 0, 0}
 	};
 
@@ -71,7 +71,7 @@ int main(int ac, char **av)
 			case 'v':
 				valopt[3].val = true;
 				break;
-			case 'o':
+			case 'c':
 				if ((ac - 2) <= 2)
 					return (usage(av[0], options));
 				valopt[4].val = true;
