@@ -47,9 +47,11 @@ simply unit test and modification.
 For look network fork: see https://github.com/punkymaniac/CryptStore_network
 
 # Functionnality
-./crypto_store [d|out] file
+./crypt_Store_data [d|out] file
 
 ## options :
-`-d: debug`
-
-`--out=<file directory>: write key in file directory`
+--help or -h : show help command
+--debug or -d : debug command in crypt_store.log
+--list-file or -l : show list of file in safe,
+--verbose or -v : verbose mode,
+--copy or -c {filename}: create copy with new file in safe, doesnt modify old safe
