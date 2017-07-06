@@ -6,14 +6,14 @@
 #    By: mbarbari <mbarbari@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2016/04/07 16:55:33 by mbarbari          #+#    #+#              #
-#    Updated: 2017/07/06 09:52:41 by barbare          ###   ########.fr        #
+#    Updated: 2017/07/06 10:35:02 by barbare          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 CC ?= clang
 CX ?= clang++
 
-NAME = cryptStore_data
+NAME = cryptStore_data.out
 
 CFLAGS += -g -Wall -Wextra -Werror
 
